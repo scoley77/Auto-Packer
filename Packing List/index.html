@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacation Packing Helper</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="header-wrapper">
+    <h1>Let's Get Packing!</h1>
+  </div>
+  <div class="first-question">
+    <label for="days">How many days will you be gone?</label>
+    <input type="number" class="days-input" name="days" placeholder="Number of Days">
+    <div class="button-wrapper">
+      <button type="button" class="push-btn" id="daysbtn" onclick="buttonOne()">Submit</button>
+    </div>
+  </div>
+  <div class="weather-wrapper" id="weather-wrapper">
+    <div class="second-question">
+      <label for="weather">What will the weather be like?</label>
+      <div class="dropdown-wrapper">
+        <select name="weather" class="weather">
+          <option value="sunny">Sunny</option>
+          <option value="humid">Humid</option>
+          <option value="chilly">Chilly</option>
+          <option value="windy">Windy</option>
+          <option value="cloudy">Cloudy</option>
+          <option value="rainy">Rainy</option>
+          <option value="snowy">Snowy</option>
+        </select>
+      </div>
+      <div class="button-wrapper">
+        <button type="button" class="push-btn" id="weatherbtn" onclick="">Submit</button>
+      </div>
+    </div>
+  </div>
+  <div class="activities-wrapper" id="activities-wrapper">
+    <div class="third-question">
+      <label for="activity">What activities will you be doing?</label>
+      <div class="checkboxes-wrapper">
+        <div class="check-wrap-1">
+          <div class="walk-wrap">
+            <input type="checkbox" class="checks" id="walk" name="walk">
+            <label for="walk">Walking</label>
+          </div>
+          <div class="run-wrap">
+            <input type="checkbox" class="checks" id="run" name="run">
+            <label for="run">Running</label>
+          </div>
+          <div class="swim-wrap">
+            <input type="checkbox" class="checks" id="swim" name="swim">
+            <label for="swim">Swimming</label>
+          </div>
+        </div>
+        <div class="check-wrap-2">
+          <div class="hike-wrap">
+            <input type="checkbox" class="checks" id="hike" name="hike">
+            <label for="hike">Hiking</label>
+          </div>
+          <div class="night-wrap">
+            <input type="checkbox" class="checks" id="night" name="night">
+            <label for="night">Nightlife</label>
+          </div>
+          <div class="formal-wrap">
+            <input type="checkbox" class="checks" id="formal" name="formal">
+            <label for="formal">Formal Events</label>
+          </div>
+        </div>
+        <div class="check-wrap-3">
+          <div class="horse-wrap">
+            <input type="checkbox" class="checks" id="horse" name="horse">
+            <label for="horse">Horseback Riding</label>
+          </div>
+          <div class="boat-wrap">
+            <input type="checkbox" class="checks" id="boat" name="boat">
+            <label for="boat">Boating</label>
+          </div>
+          <div class="comp-wrap">
+            <input type="checkbox" class="checks" id="comp" name="comp">
+            <label for="comp">Competitive Sports</label>
+          </div>
+        </div>
+        <div class="check-wrap-4">
+          <div class="ex-wrap">
+            <input type="checkbox" class="checks" id="ex" name="ex">
+            <label for="ex">Extreme Sports</label>
+          </div>
+          <div class="snow-wrap">
+            <input type="checkbox" class="checks" id="snow" name="snow">
+            <label for="snow">Snow Sports</label>
+          </div>
+          <div class="busi-wrap">
+            <input type="checkbox" class="checks" id="busi" name="busi">
+            <label for="busi">Business Events</label>
+          </div>
+        </div>
+      </div>
+      <div class="button-wrapper">
+        <button type="button" class="push-btn" id="activitybtn" onclick="">Submit</button>
+      </div>
+    </div>
+  </div>
+  <script src="script/events.js"></script>
+</body>
+</html>
