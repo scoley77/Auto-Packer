@@ -1,4 +1,9 @@
+
 .weather-wrapper {
   visibility: hidden;
   /* opacity: 0; */
+}
+
+.activities-wrapper > .third-question > .checkboxes-wrapper {
+  font-size: 1.0em;
 }
